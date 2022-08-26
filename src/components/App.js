@@ -1,5 +1,6 @@
 // import { Form } from 'formik';
 import { Component } from 'react';
+import { Clock } from './Clock/Clock';
 // import { Counter } from './Counter/Counter';
 // import { Dropdown } from './Dropdown/Dropdown';
 // import { Form } from './Form/Form';
@@ -11,14 +12,15 @@ export class App extends Component {
     showModal: false,
   };
   toggleModal = () => {
-    this.setState(({ showModal }) => ({
-      showModal: !showModal,
+    this.setState(prevState => ({
+      showModal: !prevState.showModal,
     }));
   };
   render() {
     const { showModal } = this.state;
     return (
       <div>
+        <Clock />
         {/* <LoginForm />
         <Counter />
         <Dropdown />
