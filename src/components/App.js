@@ -1,6 +1,10 @@
 // import { Form } from 'formik';
 import { Component } from 'react';
-import { Clock } from './Clock/Clock';
+// import { Tabs } from './Tabs/Tabs';
+// import tabs from '../tabs.json';
+import { IconButton } from './IconButton/IconButton';
+import { ReactComponent as AddIcon } from '../icons/add.svg';
+// import { Clock } from './Clock/Clock';
 // import { Counter } from './Counter/Counter';
 // import { Dropdown } from './Dropdown/Dropdown';
 // import { Form } from './Form/Form';
@@ -20,14 +24,18 @@ export class App extends Component {
     const { showModal } = this.state;
     return (
       <div>
-        <Clock />
+        <IconButton onClick={this.toggleModal} aria-label="Открыть модалку">
+          <AddIcon width="20" height="20" />
+        </IconButton>
+        {/* <Tabs items={tabs} /> */}
+        {/* <Clock /> */}
         {/* <LoginForm />
         <Counter />
         <Dropdown />
         <Form /> */}
-        <button type="button" onClick={this.toggleModal}>
+        {/* <button type="button" onClick={this.toggleModal}>
           Open Modal
-        </button>
+        </button> */}
         {showModal && (
           <Modal onClose={this.toggleModal}>
             <button type="button" onClick={this.toggleModal}>
