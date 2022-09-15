@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/studing-routing/static/css/main.2c125458.css",
+    "main.js": "/studing-routing/static/js/main.03d212af.js",
+    "index.html": "/studing-routing/index.html",
+    "main.2c125458.css.map": "/studing-routing/static/css/main.2c125458.css.map",
+    "main.03d212af.js.map": "/studing-routing/static/js/main.03d212af.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2c125458.css",
+    "static/js/main.03d212af.js"
+  ]
+}
