@@ -2,7 +2,7 @@
   "name": "react-homework-template",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ihorkharchenko.github.io/studing-react/",
+  "homepage": "https://ihorkharchenko.github.io/studing-routing/",
   "dependencies": {
     "@emotion/react": "^11.10.0",
     "@emotion/styled": "^11.10.0",
