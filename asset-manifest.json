@@ -1,13 +1,10 @@
 {
   "files": {
-    "main.css": "/studing-routing/static/css/main.2c125458.css",
-    "main.js": "/studing-routing/static/js/main.03d212af.js",
+    "main.js": "/studing-routing/static/js/main.1d97b3a2.js",
     "index.html": "/studing-routing/index.html",
-    "main.2c125458.css.map": "/studing-routing/static/css/main.2c125458.css.map",
-    "main.03d212af.js.map": "/studing-routing/static/js/main.03d212af.js.map"
+    "main.1d97b3a2.js.map": "/studing-routing/static/js/main.1d97b3a2.js.map"
   },
   "entrypoints": [
-    "static/css/main.2c125458.css",
-    "static/js/main.03d212af.js"
+    "static/js/main.1d97b3a2.js"
   ]
 }
